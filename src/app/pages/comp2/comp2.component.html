@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="matCard">
+    <div class="matCardBody">
+      <h5 class="matCardTitle">Username is <span style="color: blue;">{{name}}</span></h5>
+      <mat-form-field class="w-100" appearance="outline">
+        <mat-label> Name </mat-label>
+        <input matInput placeholder="Enter  Name" #Comp2 required />
+      </mat-form-field>
+      <div class="btnsWidget form-group center">
+        <div class="row">
+          <div>
+            <!-- <button  class="btn btn-primary btn-sm " mat-dialog-close (click)="onSubmit()" > -->
+              <!-- <span *ngIf="!SubjectID">save</span> <span *ngIf="SubjectID">update</span></button> -->
+            <button class="btn btn-primary btn-sm " (click)="onChange2(Comp2)">Change</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+  </div>
+  </div>
